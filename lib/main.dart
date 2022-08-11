@@ -53,11 +53,20 @@ class _MyHomePageState extends State<MyHomePage> {
 
         child: Column(
 
+
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
             Text(
-              'No pote de sorvete só tem feijão '
-                  'Saldo na conta em 0',
+              'No pote de sorvete só tem feijão\n'
+                  'Saldo na conta em 0\n'
+                  'ficar do lado de fora da padaria enquanto o pai compra pão pra não ficar com vontade de pedir algum doce\n'
+                  'pago fiado\n'
+                  'ficar sem luz, internet e água pq cortaram (n foi pago)\n'
+                  'mentir a idade e dizer ser menor de 5 anos pra n pagar passagem de ônibus e outras coisas kkkjk\n',
+                  style: TextStyle(
+                  fontSize: 30.0,
+                  ),
+
             ),
           ],
         ),
