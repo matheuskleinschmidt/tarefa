@@ -54,15 +54,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
 
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
+          children: const <Widget>[
+            Text(
               'No pote de sorvete só tem feijão '
                   'Saldo na conta em 0',
-
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),
